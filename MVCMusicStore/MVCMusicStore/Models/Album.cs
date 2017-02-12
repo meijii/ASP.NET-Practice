@@ -1,4 +1,7 @@
-﻿namespace MVCMusicStore.Models
+﻿using System.Collections.Generic;
+using System.Text;
+
+namespace MVCMusicStore.Models
 {
     public class Album
     {
@@ -8,6 +11,6 @@
 
         public Artist Artist { get; set; }
 
-        public Review
+        public virtual List<Review> Review { get; set; }
     }
 }

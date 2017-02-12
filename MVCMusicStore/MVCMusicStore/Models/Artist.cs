@@ -11,7 +11,7 @@ namespace MVCMusicStore.Models
 
         public string Name { get; set; }
 
-        public List<Album> Albums { get; set; }
+        public virtual List<Album> Albums { get; set; }
 
     }
 
